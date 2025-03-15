@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2? family= Adamina & family= Titillium+Web:wght@200 & display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #dcdcdc;
+    flex-direction: column;
+ }
+ .text{
+     font-size: 45px;
+     color: #000;
+     font-family:'Adamina', sans-serif;
+     margin-bottom: 30px;
+ }
+ .paragrafo{
+     color: #000;
+     font-size: 20px;
+     margin-bottom: 50px;
+ }
+ .btn{
+     padding: 15px 55px;
+     background: red;
+     text-decoration: none;
+     color: #fff;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 25px;
+     transition: all 0.5s;
+ }
+ .btn:hover{
+     border-radius: 16px;
+ }

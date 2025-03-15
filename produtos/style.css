@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2? family= Adamina & family= Titillium+Web:wght@200 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Adamina', sans-serif;
+}
+header{
+    box-shadow: 0px 3px 10px #000;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-list ul li{
+    margin: 0 15px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+}
+.entrar ul{
+    display: flex;
+    justify-content: center  ;
+    list-style: none;  
+}
+.entrar ul li{
+    display: block;
+    margin: 0 3px;
+}
+.entrar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000; 
+}
+.entrar img{
+    margin: -47px;
+    width: 43px;
+    height: 90;
+}
+.sub-menu{
+    background-color: #2A2A2A;
+    justify-content: space-between;
+    padding: 20px; 
+}
+.sub-menu p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+section{
+    padding-top: 2rem;
+}
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.Container-BTS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;  
+}
+.Container-BTS img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.BT img{
+    width: 250px;
+    height: 300px;
+}
+.BT-COMPRAR button{
+    width: 250px;
+    height: 35px;
+    background-color: #F00;
+    border: solid rgb(239, 0, 0);
+    cursor: pointer;
+}
+.BT-COMPRAR a{
+    text-decoration: none;
+    font-size: 15px;
+    font: bold;
+    color: #ffffff; 
+}
+footer{
+    background-color: #d9d9d9;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 10%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-footer img{
+    float: left;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h2{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+    font-weight: bold;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #2A2A2A;
+    padding-left: 10px;
+}
+.footer-col img{
+    width: 20px;
+}
+.footer-col .medias-sociais{
+    margin-top: 30px;
+}
+.medias-sociais img{
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    margin-right: 3px;
+    float: right;
+}
+.medias-sociais h2{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+    font-weight: bold; 
+    right: -30px;
+}
+@media (max-width:800px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px){
+    .footer-col{
+        width: 100%;
+    }
+}
+.higher{
+    padding: 30px;
+}
+.higher h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font: bold;
+    border-bottom: 0;
+}
+.left img{
+    margin: 7px;
+    max-width: 400px;
+    max-height: 100px;
+    float: left;
+}
+.right img{
+    margin: 7px ;
+    max-width: 400px;
+    max-height: 100px;
+    float: right;
+}
+.below{
+    padding: 20px;
+    background-color: #000;
+}
+.below p{
+    text-align: center;
+    color:#fff;
+    font-size: 18px; 
+}
